@@ -1,0 +1,23 @@
+/f/share/oracle
+$ git init
+Initialized empty Git repository in F:/share/oracle/.git/
+
+/f/share/oracle (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+/f/share/oracle (master)
+$ git add .
+
+/f/share/oracle (master)
+$ git commit -m "first commit"   此命令会覆盖之前的内容，数据
+[master (root-commit) 7d55169] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 oram.docx
+
+
+Administration@DESKTOP-NTUIGAR MINGW64 /f/share/oracle (master)
+$ git remote add origin git@github.com:MITZ1979/nates.git
+
+Administration@DESKTOP-NTUIGAR MINGW64 /f/share/oracle (master)
+$ git push -f https://github.com/MITZ1979/nates.git
